@@ -10,17 +10,11 @@ The archive style was inspired by the [ET notebooks][1] by Edward Tufte.
 
 ## How to implement it
 
-If your blog is at the site
-
-    http://thisisanawesomeblog.blogspot.com
-
-then you copy and paste the following the code into your the html for your new page in Blogger:
+Copy and paste the following the code into your the html for your new page in Blogger:
 
     <script type="text/javascript" src="http://cloud.github.com/downloads/jhwilson/Create-a-Blogger-archive-page/Make-Blogger-Archive-Page.js">
     </script>
-    <script src="http://thisisanawesomeblog.blogspot.com/feeds/posts/default?max-results=500&amp;alt=json-in-script&amp;callback=LoadTheArchive">
+    <script src="/feeds/posts/default?max-results=500&amp;alt=json-in-script&amp;callback=LoadTheArchive">
     </script>
-
-Remember to change the code in the second script call to match your blog URL!
 
 [1]:http://www.edwardtufte.com/bboard/q-and-a?topic_id=1
